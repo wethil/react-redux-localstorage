@@ -1,0 +1,51 @@
+.container{
+  width:80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoSingle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    input {
+      float: left;
+    }
+    .label{
+      width: 500px;
+      margin-left: 10px;
+    }
+
+    .remove {
+      cursor: pointer;
+      color: red;
+      width: 10px;
+      float: right;
+    }
+}
+
+.search{
+  max-width: 500px;
+  input{
+    width: 100%
+  }
+  margin-bottom: 20px;
+}
+
+.todoSearch {
+    cursor: pointer;
+    .label{
+      width: 400px;
+      margin-left: 10px;
+    }
+}
+
+.createToDo{
+  margin-top: 10px;
+  max-width: 500px;
+    input{
+    width: 100%
+  }
+}
